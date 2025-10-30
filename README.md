@@ -48,7 +48,7 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
 03. Clique em **Criar grupo de segurança** e preencha com os parâmetros abaixo.
 
     - Nome do grupo de segurança: **db-sg-pub**
-    - Descrição: **Grupo de Segurança DB público**
+    - Descrição: **Grupo de Seguranca DB publico**
     - VPC: **db-vpc**
     - Regras de entrada (Clique em **Adicionar regra** para cada regra abaixo)
       - Regra 1
@@ -72,7 +72,7 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
 03. Clique em **Criar grupo de segurança** e preencha com os parâmetros abaixo.
 
     - Nome do grupo de segurança: **db-sg-priv**
-    - Descrição: **Grupo de Segurança DB privado**
+    - Descrição: **Grupo de Seguranca DB privado**
     - VPC: **db-vpc**
     - Regras de entrada (Clique em **Adicionar regra**)
       - Regra 1
