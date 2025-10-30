@@ -201,7 +201,7 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
     - Nome do modelo de inicialização: **ec2-launch-template**
     - Imagens de aplicação e de sistema operacional (imagem de máquina da Amazon)
       - Início rápido: **Amazon Linux**
-      - Imagem de máquina da Amazon (AMI): **Amazon Linux 2 AMI (HVM)**
+      - Imagem de máquina da Amazon (AMI): **AMI do Amazon Linux 2023 kernel-6.1**
     - Tipo de instância: **t2.micro**
     - Nome do par de chaves: **vockey** (ou qualquer outro de sua escolha)
     - Configurações de rede
