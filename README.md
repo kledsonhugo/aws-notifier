@@ -151,6 +151,7 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
     - Disponibilidade e durabilidade
       - Opções de implantação: **Implantação de instância de banco de dados Multi-AZ (2 instâncias)**
     - Configurações
+      - Versão do mecanismo: **MySQL 8.0.46**
       - Identificador da instância de banco de dados: **db-instance-id**
       - Nome do usuário principal: **dbadmin**
       - Gerenciamento de credenciais
@@ -175,8 +176,8 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
     - Configuração adicional
       - Nome do banco de dados inicial: **dbname**
       - Grupo de parâmetros do banco de dados: **db-param-group**
-      - Habilitar backups automáticos: **desabilitado**
       - Habilitar criptografia: **desabilitado**
+      - Habilitar backups automáticos: **desabilitado**
       - Habilitar o upgrade automático da versão secundária: **desabilitado**
       - Habilitar proteção contra exclusão: **desabilitado**
 
