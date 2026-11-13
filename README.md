@@ -108,7 +108,7 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
     - Nome do grupo de parâmetros: **db-param-group**
     - Descrição: **Grupo de Parâmetros do BD**
     - Tipo de mecanismo: **MySQL Community**
-    - Família do grupo de parâmetros: **mysql8.0**
+    - Família do grupo de parâmetros: **mysql8.4**
 
 03. Clique em **Criar**.
 
@@ -144,14 +144,14 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
 
 01. No menu lateral esquerdo, clique em **Bancos de dados**.
 
-02. Clique em **Criar banco de dados** e preencha com os parâmetros abaixo.
+02. Clique em **Criar banco de dados**, na opção **Configuração Completa** e preencha com os parâmetros abaixo.
 
     - Opções do mecanismo
       - Tipo de mecanismo: **MySQL**
     - Disponibilidade e durabilidade
       - Opções de implantação: **Implantação de instância de banco de dados Multi-AZ (2 instâncias)**
     - Configurações
-      - Versão do mecanismo: **MySQL 8.0.46**
+      - Versão do mecanismo: **MySQL 8.4.11**
       - Identificador da instância de banco de dados: **db-instance-id**
       - Nome do usuário principal: **dbadmin**
       - Gerenciamento de credenciais
@@ -162,6 +162,7 @@ O aplicativo usa [AWS RDS](https://aws.amazon.com/rds/) para armazenar informaç
       - Classe da instância de BD: **Classes com capacidade de intermitência (inclui classes t)**
     - Armazenamento
       - Tipo de armazenamento: **gp2**
+      - Armazenamento alocado: **20**
       - Configuração adicional de armazenamento
         - Habilitar escalonamento automático de armazenamento: **desabilitado**
     - Conectividade
